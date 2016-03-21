@@ -1,0 +1,12 @@
+-cp src
+-main Main
+
+--macro uhx.macro.Trait.initialize()
+
+--each
+
+-neko bin/tre.n
+
+--next
+
+-js bin/tre.js
